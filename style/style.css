@@ -137,6 +137,7 @@ nav ul li {
       letter-spacing: 0.5px;
       text-align: end;
       margin-right: 10px;
+      
 
 }
 
@@ -163,6 +164,14 @@ nav ul li {
       font-weight: 900;
       font-size: 40px;
       margin-bottom: 150px;
+      align-items: center;
+}
+.style-p-1{
+      position: absolute;
+      top: 15px;
+      left: 100px;
+      margin-left: 10px;
+      text-align: start;
 }
 
 .style-2 {

@@ -1,6 +1,8 @@
 @media screen and (max-width: 576px) {
       body {
-            margin: 0px;
+            margin: 5px;
+            width: 100%;
+            height: 100%;
 
       }
 
@@ -8,9 +10,12 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            border: 5px solid;
+            
       }
-     
+     .fix{
+      margin-top: -27px;
+      margin-left: -4px;
+     }
 
       #header-h3 {
             margin: 0%;
@@ -18,7 +23,7 @@
 
       .nav-style {
             display: none;
-            
+
       }
 
       .nav-sec {
@@ -148,25 +153,31 @@ gap: 30;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 60px;
-
+ margin-right:  60px;
  }
+
  .habit-1{
        margin-right: 60px; 
+
       
 
  }
- 
-
+ .habits{
+      margin-right: 150px;
+ }
+ .habit-img{
+      margin-right: 15%;
+ }
  
  .run{
   
  display: flex;
  flex-direction: column;     
 width: 353px;
-height: 531px;
-left: 20px;
-top: 50px;
+height: 621px;
+left: 20px; 
+top: 2488px;
+margin-top: 600%;
  }
  .Movement{
 position: static;
@@ -204,8 +215,17 @@ margin: 0px 20px;
 position: absolute;
 width: 287px;
 height: 170px;
+top: 100px;
 
 
+ }
+ .img1{
+      
+position: absolute;
+width: 287px;
+height: 170px;
+left: 33px;
+top: 326px;
  }
 
 
