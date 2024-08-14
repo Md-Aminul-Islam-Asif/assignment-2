@@ -175,9 +175,21 @@ flex-grow: 0;
  flex-direction: column;     
 width: 353px;
 height: 621px;
-left: 20px; 
+left: 40px;  
 top: 2488px;
 margin-top: 600%;
+margin-right: 200px;
+justify-self: start;
+justify-content: start;
+ }
+ .bmi-margin{
+      margin-top: -3440px;
+ }
+ .bmi{
+      display: flex;
+      flex-direction: column;
+      margin: 0%;
+      padding: 0%;
  }
  .Movement{
 position: static;
@@ -199,24 +211,23 @@ margin: 0px 20px;
 position: static;
 width: 353px;
 height: 1188px;
-display: flex;
+display: flex
 flex-direction: column;
-
+padding: 0%;
 align-items: center;
-gap: 20;
+gap: 20px;
 padding: 20px;
-flex: none;
-order: 0;
+justify-self: start;
+justify-content:start ;
+order: 1;
 flex-grow: 1;
-margin: 0px 20px;
+margin: 0%
  }
  .run-img{
       
 position: absolute;
 width: 287px;
 height: 170px;
-top: 100px;
-
 
  }
  .img1{
@@ -229,9 +240,17 @@ top: 326px;
  }
 
 
+input{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+}
  
-
-
+.foot{
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+}
 
 
 }
