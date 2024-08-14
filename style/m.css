@@ -1,0 +1,217 @@
+@media screen and (max-width: 576px) {
+      body {
+            margin: 0px;
+
+      }
+
+      .Get {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border: 5px solid;
+      }
+     
+
+      #header-h3 {
+            margin: 0%;
+      }
+
+      .nav-style {
+            display: none;
+            
+      }
+
+      .nav-sec {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            margin: 0px;
+      }
+
+      .nav {
+            position: static;
+            width: 285px;
+            height: 129px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 28;
+            padding: 0px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 28px 0px;
+      }
+
+      .header-p {
+
+            position: static;
+            width: 274px;
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 28;
+            padding: 0px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 28px 0px;
+      }
+
+      .btn-1 {
+            position: static;
+            width: 169px;
+            height: 54px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10;
+            padding: 16px 40px 16px 40px;
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            margin: 0px 14px;
+      }
+
+      .btn-2 {
+            position: static;
+            width: 169px;
+            height: 54px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10;
+            padding: 16px 40px 16px 40px;
+            flex: none;
+            order: 1;
+            flex-grow: 1;
+            margin: 0px 14px;
+      }
+
+      .nav-nav {
+            position: absolute;
+            width: 576px;
+            height: 700px;
+            left: 30px;
+            top: 930px;
+             margin-bottom: 576px; 
+      }
+
+      .style-1 {
+
+            position: absolute;
+            width: 155.74px;
+            height: 72px;
+            left: 32px;
+            top: 460px;
+      }
+
+      .style-2 {
+
+
+            position: absolute;
+            width: 145.91px;
+            height: 74.09px;
+            left: 216px;
+            top: 170px;
+      }
+ .habit{
+  
+
+position: absolute;
+width: 338px;
+height: 1398px;
+left: 8px;
+top: 1370px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin-right:  60px;
+
+ }
+ 
+ .habits{  
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 30;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 60px;
+
+ }
+ .habit-1{
+       margin-right: 60px; 
+      
+
+ }
+ 
+
+ 
+ .run{
+  
+ display: flex;
+ flex-direction: column;     
+width: 353px;
+height: 531px;
+left: 20px;
+top: 50px;
+ }
+ .Movement{
+position: static;
+width: 353px;
+height: 1188px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 20;
+padding: 20px;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 20px;
+ }
+ .trainer{
+     
+position: static;
+width: 353px;
+height: 1188px;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 20;
+padding: 20px;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 20px;
+ }
+ .run-img{
+      
+position: absolute;
+width: 287px;
+height: 170px;
+
+
+ }
+
+
+ 
+
+
+
+
+}

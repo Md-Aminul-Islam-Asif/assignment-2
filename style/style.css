@@ -8,9 +8,24 @@
       font-family: 'Miama', sans-serif;
 }
 
+* {
+      /* border: 1px solid red; */
+}
+
 body {
       color: rgb(255, 255, 255);
       background-color: black;
+      /* border: 2px dashed green; */
+}
+
+main {
+      max-width: 100%;
+      margin: 0 auto;
+}
+
+a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
 }
 
 /* header style */
@@ -20,6 +35,7 @@ body {
       font-weight: 800;
       font-size: 36px;
 }
+
 
 nav {
       display: flex;
@@ -45,7 +61,7 @@ nav ul li {
       background: rgb(230, 83, 60);
 }
 
-#btna {}
+
 
 .nav-style {
       width: 456px;
@@ -92,6 +108,82 @@ nav ul li {
 .nav-sec {
       display: flex;
       justify-content: space-between;
+}
+
+.nav-img {
+
+      margin-top: -35px;
+      width: 350px;
+      height: fit-content;
+      position: relative;
+}
+
+.style-h {
+      font-weight: 900;
+      font-size: 24px;
+      color: rgb(250, 250, 249);
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      text-align: center;
+
+}
+
+.style-p {
+      color: rgba(239, 237, 232, 0.65);
+      font-weight: 400;
+      font-size: 16px;
+      text-align: start;
+      color: rgba(239, 237, 232, 0.65);
+      letter-spacing: 0.5px;
+      text-align: end;
+      margin-right: 10px;
+
+}
+
+
+
+
+
+
+.style-1 {
+
+      position: absolute;
+      width: 206px;
+      height: 96px;
+      left: 1024px;
+      top: 650px;
+      box-sizing: border-box;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      backdrop-filter: blur(20px);
+      background: rgba(48, 48, 48, 0.54);
+}
+
+.style-2-h {
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 150px;
+}
+
+.style-2 {
+
+      position: absolute;
+      width: 193px;
+      height: 98px;
+      left: 1300px;
+      top: 420px;
+
+      box-sizing: border-box;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+
+      backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.1);
+}
+
+.fix {
+      margin-top: -98px;
+      background-image: linear-gradient(to bottom, #111111, #151515, #191919, #1c1c1c, #202020, #1f1f1f, #1e1e1e, #1d1d1d, #181818, #121212, #0a0a0a, #000000);
 }
 
 /* main style */
@@ -181,7 +273,105 @@ nav ul li {
       margin: 180px;
 }
 
+/* bmi style */
+.bmi {
+      background-color: rgb(34, 34, 34);
+      padding: 75px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.bmi-h {
+      font-weight: 900;
+      font-size: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+
+      align-items: center;
+
+}
+
+.bmi-p {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 14px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center
+}
+
+
+.bmih {
+      font-weight: 900;
+      font-size: 28px;
+}
+
+.bmi-color {
+      color: rgba(255, 255, 255, 0.5);
+}
+
+table,
+tr,
+td,
+th {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-collapse: collapse;
+      width: 310px;
+      height: 50px;
+
+}
+
+.bmi-table {
+      margin: 88px;
+}
+
+.sss {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+}
+
+input,
+select {
+      width: 260px;
+      height: 48px;
+      border-radius: 8px;
+      border: none;
+      color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, 0.1);
+      font-weight: 400;
+      font-size: 1rem;
+      padding-left: 20px;
+      cursor: pointer;
+}
+
+option {
+      background-color: rgba(48, 48, 48, 0.54);
+}
+
+.x {
+      width: 100%;
+      color: rgba(255, 255, 255, 0.3);
+}
+
+.atc {
+      width: 100%;
+      margin-top: 12px;
+      color: rgba(255, 255, 255, 0.3);
+}
+
+.class {
+      margin-top: 95px;
+}
+
 /* Meet Our Team style */
+.Movement {
+      margin: 150px;
+}
+
 .Team {
       font-weight: 900;
       font-size: 48px;
@@ -192,8 +382,9 @@ nav ul li {
 .team {
       text-align: center;
 }
-.trainer{
-      
+
+.trainer {
+
       width: 96%;
       margin-top: 60px;
       margin-left: auto;
@@ -203,22 +394,25 @@ nav ul li {
       border: 1px solid rgba(255, 255, 255, 0.1);
       padding: 16px;
 }
-     .txt{
-      
+
+.txt {
+
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 16px;
       justify-content: center;
-     }
-     .trainers{
-      
+}
+
+.trainers {
+
       width: 326px;
       height: 271px;
       border-radius: 18px;
       position: relative;
       margin: auto;
-     }
-     .srt{
+}
+
+.srt {
       height: 100%;
       width: 100%;
       border-radius: 18px;
@@ -227,33 +421,38 @@ nav ul li {
       position: absolute;
       top: auto;
       left: auto;
-     }
-     .trainers img{
-      
+}
+
+.trainers img {
+
       height: 100%;
       width: 100%;
       border-radius: 18px;
-     }
-     .tnt{
-      
+}
+
+.tnt {
+
       position: absolute;
       top: 185px;
       left: 30px;
       color: aliceblue;
       font-weight: 600;
       font-size: 1.123rem;
-     }
-     .tst{
-     
+}
+
+.tst {
+
       color: rgba(255, 255, 255, 0.5);
       font-size: 0.875rem;
       font-weight: 400;
       position: absolute;
       top: 210px;
-      left:30px ;
-     }
-   
-    
+      left: 30px;
+}
+
+
+
+
 /* footer style */
 
 .footerh {
@@ -276,12 +475,16 @@ footer {
 
 .footer-ul {
       list-style: none;
+
 }
 
 .footer-li {
       gap: 10px;
       margin-bottom: 20px;
       margin-top: 20px;
+      margin-right: px;
+      justify-content: flex-start;
+      color: rgba(255, 255, 255, 0.5);
 }
 
 #hr {
@@ -297,4 +500,7 @@ footer {
 
 .h2 {
       margin-top: 50px;
+}
+footer{
+      margin-bottom: -50px;
 }
