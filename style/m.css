@@ -10,12 +10,13 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            
+
       }
-     .fix{
-      margin-top: -27px;
-      margin-left: -4px;
-     }
+
+      .fix {
+            margin-top: -27px;
+            margin-left: -4px;
+      }
 
       #header-h3 {
             margin-top: 75px;
@@ -99,13 +100,20 @@
             margin: 0px 14px;
       }
 
+      .nav-btn {
+            display: flex;
+      }
+
       .nav-nav {
             position: absolute;
-            width: 576px;
-            height: 700px;
+            /* width: 576px;  */
+            width: 90%;
+            height: 90%;
             left: 30px;
             top: 930px;
-             margin-bottom: 576px; 
+            margin-bottom: 576px;
+            margin-bottom: auto;
+            margin-top: -125px;
       }
 
       .style-1 {
@@ -126,169 +134,238 @@
             left: 216px;
             top: 170px;
       }
- .habit{
-  
 
-position: absolute;
- width: 338px;
-height: 1398px;
-left: 8px;
-top: 1370px; 
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-margin-right:  60px;
-
- }
- 
- .habits{  
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 30;
-flex: none;
-order: 0;
-flex-grow: 0;
- margin-right:  60px;
- }
-
- .habit-1{
-       margin-right: 60px; 
-
-      
-
- }
- .habits{
-      margin-right: 150px;
- }
- .habit-img{
-      margin-right: 15%;
- }
- 
- .run{
-  
- display: flex;
- flex-direction: column;     
-/* width: 353px; */
-width: 90%;
-height: 621px;
-left: 40px;  
-top: 2488px;
-margin-top: 600%;
-margin-right: 200px;
-justify-self: start;
-justify-content: start;
- }
- .bmi-margin{
-      margin-top: -3440px;
- }
- .bmi{
-      display: flex;
-      flex-direction: column;
-      margin: 0%;
-      padding: 0%;
- }
-  .Movement{
-position: static;
-width: 353px;
-height: 1188px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 20;
-padding: 20px;
-flex: none;
-order: 0;
-flex-grow: 1;
-margin: 0px 20px; 
- }
-  .trainer{
-     
-
-}
-.txt{
-       position: static; 
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      flex: none;
-      order: 0;
-      align-self: stretch;
-      flex-grow: 0;
-      margin: 20px 0px;
-}
- .run-img{
-      
-position: absolute;
-width: 287px;
-height: 170px;
-
- }
- .img1{
-      
-position: absolute;
-width: 287px;
-height: 170px;
-left: 33px;
-top: 326px;
- }
-
- 
-.class{
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-
-padding: 0px;
-margin-top: -50px;
-
-}
+      .habit {
 
 
-input{
+            position: absolute;
+            width: 338px;
+            height: 1398px;
+            left: 8px;
+            top: 1370px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0px;
+            margin-right: 60px;
+            margin-top: 15%;
+      }
 
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
+      .habits {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin-right: 60px;
+      }
+
+      .habit-1 {
+            /* margin-right: 60px;  */
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: -105px;
+            padding: 0px;
 
 
 
 
-flex: none;
-order: 0;
-flex-grow: 1;
-margin: 0px 
-}
- 
-.footer{
-      
-position: absolute;
-width: 393px;
-height: 986px;
-left: 0;
-top: 6177px;
-display: flex;
-flex-direction: column;
-}
-.foot{
-      position: static;
-      width: 90%;
-      /* height: 200px; */
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      gap: 20;
-      padding: 0px;
-      margin: 0px 102px;
-     
+      }
 
+      .habits {
+            margin-right: 150px;
+      }
+
+      .habit-img {
+            margin-right: 22.5%;
+      }
+
+      .habit-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30;
+            padding: 0px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 40px;
+
+      }
+
+      .run {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 650px;
+            left: 30px;
+            top: 2480px;
+            margin-top: 600%;
+            margin-left: 25px;
+            justify-self: start;
+            justify-content: start;
+            margin-bottom: 75px;
+            padding: 0px;
+      }
+
+      .run-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-left: 45px;
+
+      }
+
+      .btn-run {
+
+
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10;
+            padding: 16px 115px 16px 115px;
+
+      }
+
+      .run-img {
+            margin-top: 105px;
+            margin-left: 16px;
+      }
+
+      .video {
+            display: none;
+      }
+
+      .tit {
+            display: none;
+      }
+
+      .bmi-margin {
+            /* margin-top: -3690px;  */
+            display: none;
+      }
+
+      .bmi {
+
+            /* position: absolute; */
+            /* width: 394px; */
+            width: 90%;
+            height: 850px;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            margin-top: -3620px;
+
+
+      }
+
+      .Movement {
+            position: static;
+            width: 353px;
+            height: 1188px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20;
+            padding: 20px;
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            margin: 0px 20px;
+      }
+
+      .trainer {}
+
+      .txt {
+            position: static;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            margin: 20px 0px;
+      }
+
+      .run-img {
+
+            position: absolute;
+            width: 287px;
+            height: 170px;
+
+      }
+
+      .img1 {
+
+            position: absolute;
+            width: 287px;
+            height: 170px;
+            left: 33px;
+            top: 326px;
+      }
+
+
+      .class {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            padding: 0px;
+            margin-top: -50px;
+
+      }
+
+
+      input {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+
+
+
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            margin: 0px
+      }
+
+      .footer {
+
+            position: absolute;
+            width: 393px;
+            height: 986px;
+            left: 0;
+            top: 6177px;
+            display: flex;
+            flex-direction: column;
+      }
+
+      .foot {
+            position: static;
+            width: 90%;
+            /* height: 200px;  */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20;
+            padding: 0px;
+            margin: 0px 102px;
+      }
 }
